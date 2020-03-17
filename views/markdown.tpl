@@ -6,7 +6,7 @@
     <title>来一篇blog吧</title>
     <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.0/showdown.min.js"></script>-->
 	<!--https://www.jianshu.com/p/a57114bd9380  markdown使用地址-->
-	<script src="C:\Users\running\Desktop\markdown\showdown\dist\showdown.min.js"></script>
+	<script src="../status/shutdown/dist/showdown.min.js"></script>
 </head>
 
 <body>
