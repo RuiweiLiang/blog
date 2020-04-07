@@ -66,6 +66,8 @@ func (c *DetailController) Get() {
 	Message := models.GetTextById(int(TextId))
 	c.Data["Title"] = Message.Title
 	c.Data["Type"] = Message.Type
+	c.Data["Detail"] = Message.Detail
+	c.Data["Id"] = Message.Id
 	c.Data["Time"] = Message.Time.Format("2006-01-02 15:04")
 	c.TplName = "details.tpl"
 }
@@ -82,6 +84,8 @@ func (c *MarkDownController) MarkDownPostFunc() {
 		Type   string
 		Title  string
 		Detail string
+		Name   string
+		Pwd    string
 	}
 	var RequestParams Params
 	var ResJson JSONS
@@ -94,11 +98,19 @@ func (c *MarkDownController) MarkDownPostFunc() {
 		c.ServeJSON()
 	}
 	logs.Debug("%+v", RequestParams)
-	b, err := json.Marshal(RequestParams)
-	ResJson.Data = "nimabi"
-	ResJson.Code = "0"
-	ResJson.Msg = string(b)
-	c.Data["json"] = ResJson
-	c.ServeJSON()
-	c.TplName = "markdown.tpl"
+	userMessage := models.GetUserByName(RequestParams.Name)
+	logs.Debug(userMessage.Id)
+	if userMessage.Password != RequestParams.Pwd {
+		ResJson.Code = "-1"
+		ResJson.Msg = "没有此用户或密码错误"
+		c.Data["json"] = ResJson
+		c.ServeJSON()
+	} else {
+		models.InsertText(RequestParams.Title, RequestParams.Detail, RequestParams.Type)
+
+		ResJson.Code = "0"
+		ResJson.Msg = "新增成功"
+		c.Data["json"] = ResJson
+		c.ServeJSON()
+	}
 }

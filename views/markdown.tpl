@@ -26,14 +26,26 @@
                     contentType: 'application/json; charset=UTF-8',
                     dataType: 'json',
                     data: JSON.stringify({
-                        type: "GO",
-                        title: "这是一个标题",
-                        detail: mdValue
+                        type: $("#select").val(),
+                        title: $("#title").val(),
+                        detail: mdValue,
+                        name: $("#username").val(),
+                        pwd: $("#pwd").val()
                     }),
                     success: function(res){
                         console.log(res)
-                    }
+                        alert(res.Msg)
+                        if (res.Code == '0'){
+                            window.location.href= '/'
+                        }
+                        }
                 })
+            }
+            function hide(){
+                $('#send').css("display",'none')
+            }
+            function show(){
+                $('#send').css("display",'block')
             }
         </script>
 
@@ -242,8 +254,8 @@
     <div style="font-size: 20px;height: 30px; text-align: center;color: #009689; font-weight: bold;">确定不来一篇blog吗?</div>
     <textarea cols="200" rows="1" id="title" style="width:100%;height:30px;line-height:30px;border-radius:30px">来个标题吧,少年!</textarea>
 	<select id="select" style="width:100%;height:30px;line-height:30px;border-radius:30px">
-		<option> GO
-		<option> Python
+		<option>GO</option>
+		<option>Python</option>
 	</select>
 
     <div id="area">
@@ -257,7 +269,16 @@
 
         </table>
     </div>
-    <div id="sub" onclick="sub()"style="width:100px;line-height:30px;margin-left:90%;color: #009689;border-color:#111111;border-style:solid;border-radius:30px"><p style="padding-left:30px">新增</p></div>
+    <div onclick="show()" style="width:100px;line-height:30px;margin-left:90%;color: #009689;border-color:#111111;border-style:solid;border-radius:30px"><p style="padding-left:30px">新增</p></div>
+    <div id="send" style="display:none;top:50%;left:50%;transform:translate(-50%,-50%);z-index:0;position:fixed;border-style:solid;border-radius:30px;width:400px;height:250px;background-color:antiquewhite">
+    <span style="float:right;font-size:30px;margin-right:20px" onclick="hide()">x</span>
+        <p style="padding-left:30%;padding-top:10px;width:400px">输入你的账号的密码</p>
+        <p style="margin-left:35px">账号:</p>
+        <input style="margin-left:35px" id="username" type="text" size="40" maxlength="30" value="">
+        <p style="margin-left:35px">密码:</p>
+        <input style="margin-left:35px" id="pwd" type="text" size="40" maxlength="30" value="">
+        <p style="margin-left:70%;color: #009689" onclick="sub()">提交</p>
+    </div>
 </body>
 
 </html>

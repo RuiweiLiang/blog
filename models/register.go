@@ -14,6 +14,7 @@ type User struct {
 type Text struct {
 	Id     int64
 	Title  string
+	Status string // 0:正常 1:删除
 	Detail string
 	Time   time.Time
 	Type   string // "GO" "Python"

@@ -4,9 +4,9 @@ import (
 	"github.com/astaxie/beego/orm"
 )
 
-func GetTextById(id int) Text {
-	var Text Text
+func GetUserByName(name string) User {
+	var User User
 	o := orm.NewOrm()
-	_ = o.Raw("select * from text where id=?", id).QueryRow(&Text)
-	return Text
+	_ = o.Raw("select * from user where username=?", name).QueryRow(&User)
+	return User
 }
