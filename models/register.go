@@ -25,7 +25,7 @@ func RegisterDB() {
 	//注册驱动
 	orm.RegisterDriver("mysql", orm.DRMySQL)
 	//注册默认数据库
-	orm.RegisterDataBase("default", "mysql", "root:!root123456789@tcp(127.0.0.1:3306)/bee_blog?charset=utf8")//密码为空格式
+	orm.RegisterDataBase("default", "mysql", "root:$root1234@tcp(106.12.122.128:3306)/blog?charset=utf8")//密码为空格式
 }
 
 func GetTextById(id int) Text {

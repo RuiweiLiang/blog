@@ -617,3 +617,57 @@
 2020/03/15 17:24:13.064 [D] [value.go:460]  POST请求
 2020/03/15 17:24:13.064 [D] [value.go:460]  {Type:GO}
 2020/03/15 17:24:13.064 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[46m POST    [0m /     r:/
+2020/04/07 10:47:32.396 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2020/04/07 10:49:43.720 [D] [value.go:447]  主页
+2020/04/07 10:49:43.737 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|    24.9334ms|   match|[44m GET     [0m /     r:/
+2020/04/07 10:49:43.870 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|      997.6µs|   match|[44m GET     [0m /static/res/css/main.css
+2020/04/07 10:49:43.872 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|     6.9808ms|   match|[44m GET     [0m /static/res/layui/css/layui.css
+2020/04/07 10:49:43.876 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|        997µs|   match|[44m GET     [0m /static/res/layui/layui.js
+2020/04/07 10:49:43.878 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|      997.4µs|   match|[44m GET     [0m /static/res/img/logo.png
+2020/04/07 10:49:43.880 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|      997.2µs|   match|[44m GET     [0m /static/res/img/sy_img1.jpg
+2020/04/07 10:49:43.881 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/res/img/down_img.jpg
+2020/04/07 10:49:43.899 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/res/img/jiantou.png
+2020/04/07 10:49:43.924 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|    22.9378ms|   match|[44m GET     [0m /static/res/img/banner.jpg
+2020/04/07 10:49:43.997 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|     1.9939ms|   match|[44m GET     [0m /static/res/layui/lay/modules/element.js
+2020/04/07 10:49:44.033 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|    18.9507ms|   match|[44m GET     [0m /static/res/layui/lay/modules/jquery.js
+2020/04/07 10:49:44.120 [D] [server.go:2774]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /favicon.ico
+2020/04/07 10:49:44.120 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|     1.9946ms|   match|[44m GET     [0m /static/res/layui/lay/modules/laypage.js
+2020/04/07 10:49:44.131 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|     2.9924ms|   match|[44m GET     [0m /static/res/js/util/menu.js
+2020/04/07 10:49:44.147 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/res/js/util/mm.js
+2020/04/07 10:49:44.148 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|     4.9873ms|   match|[44m GET     [0m /static/res/layui/lay/modules/layer.js
+2020/04/07 10:49:44.189 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|     5.9854ms|   match|[44m GET     [0m /static/res/layui/css/modules/layer/default/layer.css
+2020/04/07 10:49:44.192 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/res/layui/lay/modules/laytpl.js
+2020/04/07 10:49:44.205 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|      997.1µs|   match|[44m GET     [0m /static/res/layui/lay/modules/carousel.js
+2020/04/07 10:49:44.233 [D] [value.go:447]  POST请求
+2020/04/07 10:49:44.233 [D] [value.go:447]  {Type:GO}
+2020/04/07 10:49:44.233 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[46m POST    [0m /     r:/
+2020/04/07 10:53:32.816 [I] [asm_amd64.s:1337]  http server Running on http://0.0.0.0:8080
+2020/04/07 10:54:16.463 [D] [value.go:447]  主页
+2020/04/07 10:54:16.468 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|     6.9817ms|   match|[44m GET     [0m /     r:/
+2020/04/07 10:54:16.594 [D] [value.go:447]  POST请求
+2020/04/07 10:54:16.594 [D] [value.go:447]  {Type:GO}
+2020/04/07 10:54:16.595 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|      995.5µs|   match|[46m POST    [0m /     r:/
+2020/04/07 10:54:31.871 [D] [value.go:447]  主页
+2020/04/07 10:54:31.904 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|    32.9126ms|   match|[44m GET     [0m /     r:/
+2020/04/07 10:54:32.046 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|      997.2µs|   match|[44m GET     [0m /static/res/css/main.css
+2020/04/07 10:54:32.048 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|      996.7µs|   match|[44m GET     [0m /static/res/img/logo.png
+2020/04/07 10:54:32.049 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|      997.8µs|   match|[44m GET     [0m /static/res/img/sy_img1.jpg
+2020/04/07 10:54:32.049 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|     2.9924ms|   match|[44m GET     [0m /static/res/layui/css/layui.css
+2020/04/07 10:54:32.050 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|      996.9µs|   match|[44m GET     [0m /static/res/layui/layui.js
+2020/04/07 10:54:32.051 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|      996.8µs|   match|[44m GET     [0m /static/res/img/down_img.jpg
+2020/04/07 10:54:32.098 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|      997.2µs|   match|[44m GET     [0m /static/res/img/jiantou.png
+2020/04/07 10:54:32.114 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|     13.962ms|   match|[44m GET     [0m /static/res/layui/lay/modules/element.js
+2020/04/07 10:54:32.122 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|    22.9394ms|   match|[44m GET     [0m /static/res/img/banner.jpg
+2020/04/07 10:54:32.191 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|    11.9681ms|   match|[44m GET     [0m /static/res/layui/lay/modules/jquery.js
+2020/04/07 10:54:32.278 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|     1.9936ms|   match|[44m GET     [0m /static/res/layui/lay/modules/laypage.js
+2020/04/07 10:54:32.279 [D] [server.go:2774]  |  192.168.0.194|[43m 404 [0m|     1.9948ms| nomatch|[44m GET     [0m /favicon.ico
+2020/04/07 10:54:32.290 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|     1.9951ms|   match|[44m GET     [0m /static/res/js/util/menu.js
+2020/04/07 10:54:32.299 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/res/js/util/mm.js
+2020/04/07 10:54:32.301 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|     3.9903ms|   match|[44m GET     [0m /static/res/layui/lay/modules/layer.js
+2020/04/07 10:54:32.341 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|     3.9887ms|   match|[44m GET     [0m /static/res/layui/css/modules/layer/default/layer.css
+2020/04/07 10:54:32.347 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/res/layui/lay/modules/laytpl.js
+2020/04/07 10:54:32.355 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/res/layui/lay/modules/carousel.js
+2020/04/07 10:54:32.366 [D] [value.go:447]  POST请求
+2020/04/07 10:54:32.366 [D] [value.go:447]  {Type:GO}
+2020/04/07 10:54:32.366 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|           0s|   match|[46m POST    [0m /     r:/
+2020/04/07 10:56:06.898 [I] [asm_amd64.s:1337]  http server Running on http://0.0.0.0:8080
