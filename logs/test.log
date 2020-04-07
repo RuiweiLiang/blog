@@ -671,3 +671,284 @@
 2020/04/07 10:54:32.366 [D] [value.go:447]  {Type:GO}
 2020/04/07 10:54:32.366 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|           0s|   match|[46m POST    [0m /     r:/
 2020/04/07 10:56:06.898 [I] [asm_amd64.s:1337]  http server Running on http://0.0.0.0:8080
+2020/04/07 14:26:26.336 [I] [asm_amd64.s:1337]  http server Running on http://0.0.0.0:8080
+2020/04/07 14:31:18.854 [I] [asm_amd64.s:1337]  http server Running on http://0.0.0.0:8080
+2020/04/07 14:38:15.024 [I] [asm_amd64.s:1337]  http server Running on http://0.0.0.0:8080
+2020/04/07 14:45:33.871 [I] [asm_amd64.s:1337]  http server Running on http://0.0.0.0:8080
+2020/04/07 14:46:05.792 [D] [value.go:447]  主页
+2020/04/07 14:46:05.819 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|    26.9278ms|   match|[44m GET     [0m /     r:/
+2020/04/07 14:46:05.885 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|     7.9789ms|   match|[44m GET     [0m /static/res/layui/css/layui.css
+2020/04/07 14:46:05.892 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|    10.9711ms|   match|[44m GET     [0m /static/res/css/main.css
+2020/04/07 14:46:05.894 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|       3.99ms|   match|[44m GET     [0m /static/res/img/down_img.jpg
+2020/04/07 14:46:05.897 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|     7.9788ms|   match|[44m GET     [0m /static/res/img/logo.png
+2020/04/07 14:46:05.902 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|     11.968ms|   match|[44m GET     [0m /static/res/img/sy_img1.jpg
+2020/04/07 14:46:05.926 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|     4.9864ms|   match|[44m GET     [0m /static/res/img/jiantou.png
+2020/04/07 14:46:05.929 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|    37.8987ms|   match|[44m GET     [0m /static/res/layui/layui.js
+2020/04/07 14:46:05.961 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|    39.8934ms|   match|[44m GET     [0m /static/res/img/banner.jpg
+2020/04/07 14:46:06.066 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|    20.9438ms|   match|[44m GET     [0m /static/res/layui/lay/modules/element.js
+2020/04/07 14:46:06.195 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|   106.7149ms|   match|[44m GET     [0m /static/res/layui/lay/modules/jquery.js
+2020/04/07 14:46:06.287 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|    19.9455ms|   match|[44m GET     [0m /static/res/layui/lay/modules/laypage.js
+2020/04/07 14:46:06.307 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|    13.9618ms|   match|[44m GET     [0m /static/res/js/util/menu.js
+2020/04/07 14:46:06.349 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|    29.9188ms|   match|[44m GET     [0m /static/res/js/util/mm.js
+2020/04/07 14:46:06.350 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|     31.915ms|   match|[44m GET     [0m /static/res/layui/lay/modules/layer.js
+2020/04/07 14:46:06.394 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|    14.9592ms|   match|[44m GET     [0m /static/res/layui/css/modules/layer/default/layer.css
+2020/04/07 14:46:06.405 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|    17.9517ms|   match|[44m GET     [0m /static/res/layui/lay/modules/laytpl.js
+2020/04/07 14:46:06.426 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|    13.9629ms|   match|[44m GET     [0m /static/res/layui/lay/modules/carousel.js
+2020/04/07 14:46:06.443 [D] [value.go:447]  POST请求
+2020/04/07 14:46:06.443 [D] [value.go:447]  {Type:GO}
+2020/04/07 14:46:06.444 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|      997.1µs|   match|[46m POST    [0m /     r:/
+2020/04/07 14:46:34.891 [D] [router.go:833]  详情页面
+2020/04/07 14:46:34.892 [D] [router.go:833]  0
+2020/04/07 14:46:34.917 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|    25.9308ms|   match|[44m GET     [0m /detail   r:/detail
+2020/04/07 14:46:34.971 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|    30.9171ms|   match|[44m GET     [0m /static/res/img/header.png
+2020/04/07 14:46:35.023 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|    83.7763ms|   match|[44m GET     [0m /static/res/img/wz_img1.jpg
+2020/04/07 14:46:35.099 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|    24.9334ms|   match|[44m GET     [0m /static/res/layui/lay/modules/form.js
+2020/04/07 14:46:39.485 [D] [router.go:833]  详情页面
+2020/04/07 14:46:39.485 [D] [router.go:833]  0
+2020/04/07 14:46:39.502 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|    16.9546ms|   match|[44m GET     [0m /detail   r:/detail
+2020/04/07 14:46:41.376 [D] [router.go:833]  详情页面
+2020/04/07 14:46:41.376 [D] [router.go:833]  0
+2020/04/07 14:46:41.392 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|     15.957ms|   match|[44m GET     [0m /detail   r:/detail
+2020/04/07 14:47:04.075 [D] [server.go:2774]  |  192.168.0.194|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /detail/1
+2020/04/07 14:47:28.268 [D] [router.go:833]  详情页面
+2020/04/07 14:47:28.269 [D] [router.go:833]  1
+2020/04/07 14:47:28.286 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|     17.918ms|   match|[44m GET     [0m /detail   r:/detail
+2020/04/07 14:49:17.616 [D] [router.go:833]  详情页面
+2020/04/07 14:49:17.616 [D] [router.go:833]  1
+2020/04/07 14:49:17.627 [D] [controller.go:306]  template Execute err: html/template:details.tpl: ends in a non-text context: {stateHTMLCmt delimNone urlPartNone jsCtxRegexp attrNone elementNone <nil>}
+2020/04/07 14:49:17.627 [E] [server.go:2774]  html/template:details.tpl: ends in a non-text context: {stateHTMLCmt delimNone urlPartNone jsCtxRegexp attrNone elementNone <nil>}
+2020/04/07 14:49:17.627 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|    10.9698ms|   match|[44m GET     [0m /detail   r:/detail
+2020/04/07 14:49:18.866 [D] [router.go:833]  详情页面
+2020/04/07 14:49:18.866 [D] [router.go:833]  1
+2020/04/07 14:49:18.877 [D] [controller.go:306]  template Execute err: html/template:details.tpl: ends in a non-text context: {stateHTMLCmt delimNone urlPartNone jsCtxRegexp attrNone elementNone <nil>}
+2020/04/07 14:49:18.877 [E] [server.go:2774]  html/template:details.tpl: ends in a non-text context: {stateHTMLCmt delimNone urlPartNone jsCtxRegexp attrNone elementNone <nil>}
+2020/04/07 14:49:18.877 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|    10.9697ms|   match|[44m GET     [0m /detail   r:/detail
+2020/04/07 14:49:25.066 [D] [router.go:833]  详情页面
+2020/04/07 14:49:25.067 [D] [router.go:833]  1
+2020/04/07 14:49:25.078 [D] [controller.go:306]  template Execute err: html/template:details.tpl: ends in a non-text context: {stateHTMLCmt delimNone urlPartNone jsCtxRegexp attrNone elementNone <nil>}
+2020/04/07 14:49:25.078 [E] [server.go:2774]  html/template:details.tpl: ends in a non-text context: {stateHTMLCmt delimNone urlPartNone jsCtxRegexp attrNone elementNone <nil>}
+2020/04/07 14:49:25.078 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|    11.9961ms|   match|[44m GET     [0m /detail   r:/detail
+2020/04/07 14:49:27.691 [D] [router.go:833]  详情页面
+2020/04/07 14:49:27.691 [D] [router.go:833]  1
+2020/04/07 14:49:27.702 [D] [controller.go:306]  template Execute err: html/template:details.tpl: ends in a non-text context: {stateHTMLCmt delimNone urlPartNone jsCtxRegexp attrNone elementNone <nil>}
+2020/04/07 14:49:27.702 [E] [server.go:2774]  html/template:details.tpl: ends in a non-text context: {stateHTMLCmt delimNone urlPartNone jsCtxRegexp attrNone elementNone <nil>}
+2020/04/07 14:49:27.702 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|      10.97ms|   match|[44m GET     [0m /detail   r:/detail
+2020/04/07 14:49:27.729 [D] [server.go:2774]  |  192.168.0.194|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /favicon.ico
+2020/04/07 14:49:37.636 [I] [asm_amd64.s:1337]  http server Running on http://0.0.0.0:8080
+2020/04/07 14:49:55.946 [D] [router.go:833]  详情页面
+2020/04/07 14:49:55.946 [D] [router.go:833]  1
+2020/04/07 14:49:55.981 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|    33.9097ms|   match|[44m GET     [0m /detail   r:/detail
+2020/04/07 14:49:56.008 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|     9.9742ms|   match|[44m GET     [0m /static/res/layui/css/layui.css
+2020/04/07 14:49:56.011 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|      998.4µs|   match|[44m GET     [0m /static/res/css/main.css
+2020/04/07 14:49:56.031 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|      997.1µs|   match|[44m GET     [0m /static/res/img/logo.png
+2020/04/07 14:49:56.040 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|      997.3µs|   match|[44m GET     [0m /static/res/layui/layui.js
+2020/04/07 14:49:56.047 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|     6.9816ms|   match|[44m GET     [0m /static/res/img/header.png
+2020/04/07 14:49:56.062 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|      996.7µs|   match|[44m GET     [0m /static/res/img/down_img.jpg
+2020/04/07 14:49:56.081 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|    47.8733ms|   match|[44m GET     [0m /static/res/img/wz_img1.jpg
+2020/04/07 14:49:56.113 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|     3.9896ms|   match|[44m GET     [0m /static/res/layui/lay/modules/element.js
+2020/04/07 14:49:56.149 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|    27.9252ms|   match|[44m GET     [0m /static/res/layui/lay/modules/jquery.js
+2020/04/07 14:49:56.227 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|     2.9918ms|   match|[44m GET     [0m /static/res/layui/lay/modules/laypage.js
+2020/04/07 14:49:56.240 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|     5.9836ms|   match|[44m GET     [0m /static/res/layui/lay/modules/form.js
+2020/04/07 14:49:56.257 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|    10.9702ms|   match|[44m GET     [0m /static/res/layui/lay/modules/layer.js
+2020/04/07 14:49:56.289 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|     1.9947ms|   match|[44m GET     [0m /static/res/layui/css/modules/layer/default/layer.css
+2020/04/07 14:49:56.290 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|      997.9µs|   match|[44m GET     [0m /static/res/js/util/menu.js
+2020/04/07 14:49:56.305 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|      998.3µs|   match|[44m GET     [0m /static/res/js/util/mm.js
+2020/04/07 14:49:56.314 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|        996µs|   match|[44m GET     [0m /static/res/layui/lay/modules/laytpl.js
+2020/04/07 14:49:56.324 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|        997µs|   match|[44m GET     [0m /static/res/layui/lay/modules/carousel.js
+2020/04/07 14:50:45.179 [D] [router.go:833]  详情页面
+2020/04/07 14:50:45.179 [D] [router.go:833]  1
+2020/04/07 14:50:45.196 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|    17.9524ms|   match|[44m GET     [0m /detail   r:/detail
+2020/04/07 14:51:07.452 [D] [router.go:833]  详情页面
+2020/04/07 14:51:07.452 [D] [router.go:833]  1
+2020/04/07 14:51:07.469 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|    16.9555ms|   match|[44m GET     [0m /detail   r:/detail
+2020/04/07 14:52:21.428 [D] [router.go:833]  详情页面
+2020/04/07 14:52:21.429 [D] [router.go:833]  1
+2020/04/07 14:52:21.446 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|    17.9515ms|   match|[44m GET     [0m /detail   r:/detail
+2020/04/07 14:53:46.168 [D] [router.go:833]  详情页面
+2020/04/07 14:53:46.168 [D] [router.go:833]  1
+2020/04/07 14:53:46.186 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|    16.9675ms|   match|[44m GET     [0m /detail   r:/detail
+2020/04/07 15:00:19.889 [D] [router.go:833]  详情页面
+2020/04/07 15:00:19.889 [D] [router.go:833]  1
+2020/04/07 15:00:19.904 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|    14.9592ms|   match|[44m GET     [0m /detail   r:/detail
+2020/04/07 15:00:19.933 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|      997.1µs|   match|[44m GET     [0m /static/res/css/main.css
+2020/04/07 15:00:19.934 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|    10.9701ms|   match|[44m GET     [0m /static/res/layui/css/layui.css
+2020/04/07 15:00:19.938 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|        998µs|   match|[44m GET     [0m /static/res/img/logo.png
+2020/04/07 15:00:19.941 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|      997.1µs|   match|[44m GET     [0m /static/res/layui/layui.js
+2020/04/07 15:00:19.941 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/res/img/down_img.jpg
+2020/04/07 15:00:19.953 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|    13.9617ms|   match|[44m GET     [0m /static/res/img/wz_img1.jpg
+2020/04/07 15:00:19.993 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|     3.9895ms|   match|[44m GET     [0m /static/res/layui/lay/modules/element.js
+2020/04/07 15:00:20.035 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|     14.959ms|   match|[44m GET     [0m /static/res/layui/lay/modules/jquery.js
+2020/04/07 15:00:20.119 [D] [server.go:2774]  |  192.168.0.194|[43m 404 [0m|      997.2µs| nomatch|[44m GET     [0m /favicon.ico
+2020/04/07 15:00:20.121 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|     1.9945ms|   match|[44m GET     [0m /static/res/layui/lay/modules/laypage.js
+2020/04/07 15:00:20.141 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|     1.9944ms|   match|[44m GET     [0m /static/res/layui/lay/modules/form.js
+2020/04/07 15:00:20.153 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|     2.9916ms|   match|[44m GET     [0m /static/res/layui/lay/modules/layer.js
+2020/04/07 15:00:20.202 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|     7.0115ms|   match|[44m GET     [0m /static/res/js/util/menu.js
+2020/04/07 15:00:20.210 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|     4.9864ms|   match|[44m GET     [0m /static/res/layui/css/modules/layer/default/layer.css
+2020/04/07 15:00:20.214 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/res/js/util/mm.js
+2020/04/07 15:00:20.237 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/res/layui/lay/modules/laytpl.js
+2020/04/07 15:00:20.247 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/res/layui/lay/modules/carousel.js
+2020/04/07 15:00:35.899 [D] [value.go:447]  主页
+2020/04/07 15:00:35.903 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|     3.9885ms|   match|[44m GET     [0m /     r:/
+2020/04/07 15:00:35.966 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|    31.9148ms|   match|[44m GET     [0m /static/res/img/sy_img1.jpg
+2020/04/07 15:00:35.980 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|      995.7µs|   match|[44m GET     [0m /static/res/img/jiantou.png
+2020/04/07 15:00:35.995 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|     13.963ms|   match|[44m GET     [0m /static/res/img/banner.jpg
+2020/04/07 15:00:36.168 [D] [value.go:447]  POST请求
+2020/04/07 15:00:36.168 [D] [value.go:447]  {Type:GO}
+2020/04/07 15:00:36.172 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|     3.9895ms|   match|[46m POST    [0m /     r:/
+2020/04/07 15:02:46.849 [I] [asm_amd64.s:1337]  http server Running on http://0.0.0.0:8080
+2020/04/07 15:02:52.341 [D] [router.go:833]  新增文章页面
+2020/04/07 15:02:52.348 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|      6.981ms|   match|[44m GET     [0m /markdown   r:/markdown
+2020/04/07 15:02:52.367 [D] [server.go:2774]  |  192.168.0.194|[43m 404 [0m|        997µs| nomatch|[44m GET     [0m /status/shutdown/dist/showdown.min.js
+2020/04/07 15:04:34.983 [D] [router.go:833]  新增文章页面
+2020/04/07 15:04:34.989 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|     4.9859ms|   match|[44m GET     [0m /markdown   r:/markdown
+2020/04/07 15:04:35.010 [D] [server.go:2774]  |  192.168.0.194|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /status/shutdown/dist/showdown.min.js
+2020/04/07 15:04:46.084 [D] [router.go:833]  新增文章页面
+2020/04/07 15:04:46.089 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|     4.9867ms|   match|[44m GET     [0m /markdown   r:/markdown
+2020/04/07 15:04:46.104 [D] [server.go:2774]  |  192.168.0.194|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /status/shutdown/dist/showdown.min.js
+2020/04/07 15:06:05.972 [D] [router.go:833]  新增文章页面
+2020/04/07 15:06:05.977 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|     4.9868ms|   match|[44m GET     [0m /markdown   r:/markdown
+2020/04/07 15:06:05.994 [D] [server.go:2774]  |  192.168.0.194|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /status/shutdown/dist/showdown.min.js
+2020/04/07 15:06:20.861 [D] [router.go:833]  新增文章页面
+2020/04/07 15:06:20.867 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|     5.9842ms|   match|[44m GET     [0m /markdown   r:/markdown
+2020/04/07 15:06:20.883 [D] [server.go:2774]  |  192.168.0.194|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /status/shutdown/dist/showdown.min.js
+2020/04/07 15:06:27.587 [D] [router.go:833]  新增文章页面
+2020/04/07 15:06:27.592 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|     4.9863ms|   match|[44m GET     [0m /markdown   r:/markdown
+2020/04/07 15:06:27.607 [D] [server.go:2774]  |  192.168.0.194|[43m 404 [0m|      997.2µs| nomatch|[44m GET     [0m /status/shutdown/dist/showdown.min.js
+2020/04/07 15:06:34.260 [D] [router.go:833]  新增文章页面
+2020/04/07 15:06:34.265 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|     4.9853ms|   match|[44m GET     [0m /markdown   r:/markdown
+2020/04/07 15:06:34.279 [D] [server.go:2774]  |  192.168.0.194|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /status/shutdown/dist/showdown.min.js
+2020/04/07 15:06:47.620 [D] [router.go:833]  新增文章页面
+2020/04/07 15:06:47.625 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|     4.9872ms|   match|[44m GET     [0m /markdown   r:/markdown
+2020/04/07 15:06:47.641 [D] [server.go:2774]  |  192.168.0.194|[43m 404 [0m|      996.6µs| nomatch|[44m GET     [0m /status/shutdown/dist/showdown.min.js
+2020/04/07 15:07:21.131 [D] [router.go:833]  新增文章页面
+2020/04/07 15:07:21.136 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|     4.9864ms|   match|[44m GET     [0m /markdown   r:/markdown
+2020/04/07 15:07:21.181 [D] [server.go:2774]  |  192.168.0.194|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /status/shutdown/dist/showdown.min.js
+2020/04/07 15:08:14.885 [D] [router.go:833]  新增文章页面
+2020/04/07 15:08:14.891 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|     5.9837ms|   match|[44m GET     [0m /markdown   r:/markdown
+2020/04/07 15:08:14.912 [D] [server.go:2774]  |  192.168.0.194|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /status/shutdown/dist/showdown.min.js
+2020/04/07 15:08:50.381 [D] [router.go:833]  新增文章页面
+2020/04/07 15:08:50.386 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|     4.9861ms|   match|[44m GET     [0m /markdown   r:/markdown
+2020/04/07 15:08:50.403 [D] [server.go:2774]  |  192.168.0.194|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /status/shutdown/dist/showdown.min.js
+2020/04/07 15:09:11.868 [D] [router.go:833]  新增文章页面
+2020/04/07 15:09:11.875 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|     6.9813ms|   match|[44m GET     [0m /markdown   r:/markdown
+2020/04/07 15:09:11.892 [D] [server.go:2774]  |  192.168.0.194|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /status/shutdown/dist/showdown.min.js
+2020/04/07 15:09:40.426 [D] [router.go:833]  新增文章页面
+2020/04/07 15:09:40.430 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|     3.9884ms|   match|[44m GET     [0m /markdown   r:/markdown
+2020/04/07 15:09:40.447 [D] [server.go:2774]  |  192.168.0.194|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /status/shutdown/dist/showdown.min.js
+2020/04/07 15:10:09.510 [D] [router.go:833]  新增文章页面
+2020/04/07 15:10:09.515 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|      4.987ms|   match|[44m GET     [0m /markdown   r:/markdown
+2020/04/07 15:10:09.541 [D] [server.go:2774]  |  192.168.0.194|[43m 404 [0m|      998.3µs| nomatch|[44m GET     [0m /status/shutdown/dist/showdown.min.js
+2020/04/07 15:11:28.063 [D] [router.go:833]  新增文章页面
+2020/04/07 15:11:28.068 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|     4.9816ms|   match|[44m GET     [0m /markdown   r:/markdown
+2020/04/07 15:11:28.106 [D] [server.go:2774]  |  192.168.0.194|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /status/shutdown/dist/showdown.min.js
+2020/04/07 15:15:08.556 [D] [router.go:833]  新增文章页面
+2020/04/07 15:15:08.560 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|     4.9866ms|   match|[44m GET     [0m /markdown   r:/markdown
+2020/04/07 15:15:08.596 [D] [server.go:2774]  |  192.168.0.194|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /status/shutdown/dist/showdown.min.js
+2020/04/07 15:15:16.270 [D] [router.go:833]  新增文章页面
+2020/04/07 15:15:16.274 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|     3.9896ms|   match|[44m GET     [0m /markdown   r:/markdown
+2020/04/07 15:15:16.289 [D] [server.go:2774]  |  192.168.0.194|[43m 404 [0m|      996.4µs| nomatch|[44m GET     [0m /status/shutdown/dist/showdown.min.js
+2020/04/07 15:18:26.946 [D] [router.go:833]  新增文章页面
+2020/04/07 15:18:26.951 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|     4.9873ms|   match|[44m GET     [0m /markdown   r:/markdown
+2020/04/07 15:18:26.975 [D] [server.go:2774]  |  192.168.0.194|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /status/shutdown/dist/showdown.min.js
+2020/04/07 15:21:21.694 [D] [router.go:833]  新增文章页面
+2020/04/07 15:21:21.701 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|     6.9799ms|   match|[44m GET     [0m /markdown   r:/markdown
+2020/04/07 15:21:21.718 [D] [server.go:2774]  |  192.168.0.194|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /status/js/jquery-2.1.4.js
+2020/04/07 15:21:21.719 [D] [server.go:2774]  |  192.168.0.194|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /status/js/jquery-1.11.0.min.js
+2020/04/07 15:21:21.725 [D] [server.go:2774]  |  192.168.0.194|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /status/shutdown/dist/showdown.min.js
+2020/04/07 15:21:21.730 [D] [server.go:2774]  |  192.168.0.194|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /status/js/jquery-2.1.4.js
+2020/04/07 15:21:21.737 [D] [server.go:2774]  |  192.168.0.194|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /status/js/jquery-1.11.0.min.js
+2020/04/07 15:24:08.141 [D] [router.go:833]  新增文章页面
+2020/04/07 15:24:08.145 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|     3.9896ms|   match|[44m GET     [0m /markdown   r:/markdown
+2020/04/07 15:24:08.208 [D] [server.go:2774]  |  192.168.0.194|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /status/js/jquery-2.1.4.js
+2020/04/07 15:24:08.211 [D] [server.go:2774]  |  192.168.0.194|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /status/shutdown/dist/showdown.min.js
+2020/04/07 15:24:08.214 [D] [server.go:2774]  |  192.168.0.194|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /status/js/jquery-1.11.0.min.js
+2020/04/07 15:24:08.224 [D] [server.go:2774]  |  192.168.0.194|[43m 404 [0m|      996.4µs| nomatch|[44m GET     [0m /status/js/jquery-2.1.4.js
+2020/04/07 15:24:08.229 [D] [server.go:2774]  |  192.168.0.194|[43m 404 [0m|      998.2µs| nomatch|[44m GET     [0m /status/js/jquery-1.11.0.min.js
+2020/04/07 15:24:38.381 [D] [router.go:833]  新增文章页面
+2020/04/07 15:24:38.383 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|     1.9936ms|   match|[44m GET     [0m /markdown   r:/markdown
+2020/04/07 15:24:38.401 [D] [server.go:2774]  |  192.168.0.194|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /status/shutdown/dist/showdown.min.js
+2020/04/07 15:24:38.403 [D] [server.go:2774]  |  192.168.0.194|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /status/js/jquery-2.1.4.js
+2020/04/07 15:24:38.407 [D] [server.go:2774]  |  192.168.0.194|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /status/js/jquery-1.11.0.min.js
+2020/04/07 15:24:38.440 [D] [server.go:2774]  |  192.168.0.194|[43m 404 [0m|      997.1µs| nomatch|[44m GET     [0m /favicon.ico
+2020/04/07 15:24:41.841 [D] [router.go:833]  新增文章页面
+2020/04/07 15:24:41.847 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|     5.9549ms|   match|[44m GET     [0m /markdown   r:/markdown
+2020/04/07 15:24:41.861 [D] [server.go:2774]  |  192.168.0.194|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /status/shutdown/dist/showdown.min.js
+2020/04/07 15:24:41.866 [D] [server.go:2774]  |  192.168.0.194|[43m 404 [0m|      996.8µs| nomatch|[44m GET     [0m /status/js/jquery-1.11.0.min.js
+2020/04/07 15:24:41.866 [D] [server.go:2774]  |  192.168.0.194|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /status/js/jquery-2.1.4.js
+2020/04/07 15:24:41.880 [D] [server.go:2774]  |  192.168.0.194|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /status/js/jquery-1.11.0.min.js
+2020/04/07 15:24:41.899 [D] [server.go:2774]  |  192.168.0.194|[43m 404 [0m|        995µs| nomatch|[44m GET     [0m /favicon.ico
+2020/04/07 15:28:16.574 [D] [router.go:833]  新增文章页面
+2020/04/07 15:28:16.580 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|     5.9844ms|   match|[44m GET     [0m /markdown   r:/markdown
+2020/04/07 15:28:16.635 [D] [server.go:2774]  |  192.168.0.194|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /status/js/jquery-1.11.0.min.js
+2020/04/07 15:28:16.637 [D] [server.go:2774]  |  192.168.0.194|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /status/js/jquery-2.1.4.js
+2020/04/07 15:28:16.638 [D] [server.go:2774]  |  192.168.0.194|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /status/shutdown/dist/showdown.min.js
+2020/04/07 15:28:16.669 [D] [server.go:2774]  |  192.168.0.194|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /status/js/jquery-2.1.4.js
+2020/04/07 15:28:16.679 [D] [server.go:2774]  |  192.168.0.194|[43m 404 [0m|      996.4µs| nomatch|[44m GET     [0m /status/js/jquery-1.11.0.min.js
+2020/04/07 15:28:23.006 [D] [router.go:833]  新增文章页面
+2020/04/07 15:28:23.010 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|     3.9889ms|   match|[44m GET     [0m /markdown   r:/markdown
+2020/04/07 15:28:23.055 [D] [server.go:2774]  |  192.168.0.194|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /status/js/jquery-1.11.0.min.js
+2020/04/07 15:28:23.057 [D] [server.go:2774]  |  192.168.0.194|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /status/js/jquery-2.1.4.js
+2020/04/07 15:28:23.059 [D] [server.go:2774]  |  192.168.0.194|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /status/shutdown/dist/showdown.min.js
+2020/04/07 15:28:23.072 [D] [server.go:2774]  |  192.168.0.194|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /status/js/jquery-2.1.4.js
+2020/04/07 15:28:23.101 [D] [server.go:2774]  |  192.168.0.194|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /status/js/jquery-1.11.0.min.js
+2020/04/07 15:30:04.302 [D] [router.go:833]  新增文章页面
+2020/04/07 15:30:04.304 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|     1.9953ms|   match|[44m GET     [0m /markdown   r:/markdown
+2020/04/07 15:30:04.322 [D] [server.go:2774]  |  192.168.0.194|[43m 404 [0m|      997.1µs| nomatch|[44m GET     [0m /static/shutdown/dist/showdown.min.js
+2020/04/07 15:30:04.336 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|     9.9735ms|   match|[44m GET     [0m /static/js/jquery-1.11.0.min.js
+2020/04/07 15:30:04.374 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|    49.8675ms|   match|[44m GET     [0m /static/js/jquery-2.1.4.js
+2020/04/07 15:30:06.349 [D] [value.go:447]  POST请求
+2020/04/07 15:30:06.351 [D] [value.go:447]  {Type:GO}
+2020/04/07 15:30:06.352 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|     4.9861ms|   match|[46m POST    [0m /     r:/
+2020/04/07 15:30:59.150 [D] [router.go:833]  新增文章页面
+2020/04/07 15:30:59.158 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|     7.9789ms|   match|[44m GET     [0m /markdown   r:/markdown
+2020/04/07 15:30:59.172 [D] [server.go:2774]  |  192.168.0.194|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/shutdown/dist/showdown.min.js
+2020/04/07 15:31:01.652 [D] [value.go:447]  POST请求
+2020/04/07 15:31:01.653 [D] [value.go:447]  {Type:GO}
+2020/04/07 15:31:01.653 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|      1.996ms|   match|[46m POST    [0m /     r:/
+2020/04/07 15:33:51.791 [D] [router.go:833]  新增文章页面
+2020/04/07 15:33:51.794 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|     2.9922ms|   match|[44m GET     [0m /markdown   r:/markdown
+2020/04/07 15:33:51.811 [D] [server.go:2774]  |  192.168.0.194|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/shutdown/dist/showdown.min.js
+2020/04/07 15:33:53.586 [D] [value.go:447]  POST请求
+2020/04/07 15:33:53.586 [D] [value.go:447]  {Type:GO}
+2020/04/07 15:33:53.586 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|           0s|   match|[46m POST    [0m /     r:/
+2020/04/07 15:34:52.254 [D] [router.go:833]  新增文章页面
+2020/04/07 15:34:52.257 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|     2.9658ms|   match|[44m GET     [0m /markdown   r:/markdown
+2020/04/07 15:34:52.275 [D] [server.go:2774]  |  192.168.0.194|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/shutdown/dist/showdown.min.js
+2020/04/07 15:35:06.201 [D] [router.go:833]  新增文章页面
+2020/04/07 15:35:06.210 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|     8.9759ms|   match|[44m GET     [0m /markdown   r:/markdown
+2020/04/07 15:35:06.245 [D] [server.go:2774]  |  192.168.0.194|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/shutdown/dist/showdown.min.js
+2020/04/07 15:35:07.572 [D] [server.go:2774]  |  192.168.0.194|[43m 405 [0m|      997.5µs|   match|[46m POST    [0m /markdown   r:/markdown
+2020/04/07 15:36:32.266 [I] [asm_amd64.s:1337]  http server Running on http://0.0.0.0:8080
+2020/04/07 15:36:35.991 [D] [value.go:447]  新增文章页面
+2020/04/07 15:36:35.996 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|     9.9739ms|   match|[44m GET     [0m /markdown   r:/markdown
+2020/04/07 15:36:36.019 [D] [server.go:2774]  |  192.168.0.194|[43m 404 [0m|      997.1µs| nomatch|[44m GET     [0m /static/shutdown/dist/showdown.min.js
+2020/04/07 15:36:37.180 [D] [value.go:447]  新增文章
+2020/04/07 15:36:37.180 [D] [value.go:447]  POST请求
+2020/04/07 15:36:37.180 [D] [value.go:447]  {Type:GO Title:这是一个标题 Detail:}
+2020/04/07 15:36:37.180 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|     1.0251ms|   match|[46m POST    [0m /markdown   r:/markdown
+2020/04/07 15:37:28.443 [D] [value.go:447]  新增文章页面
+2020/04/07 15:37:28.456 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|    12.9655ms|   match|[44m GET     [0m /markdown   r:/markdown
+2020/04/07 15:37:28.504 [D] [server.go:2774]  |  192.168.0.194|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/shutdown/dist/showdown.min.js
+2020/04/07 15:37:42.529 [D] [value.go:447]  新增文章
+2020/04/07 15:37:42.529 [D] [value.go:447]  POST请求
+2020/04/07 15:37:42.529 [D] [value.go:447]  {Type:GO Title:这是一个标题 Detail:}
+2020/04/07 15:37:42.530 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|        997µs|   match|[46m POST    [0m /markdown   r:/markdown
+2020/04/07 15:38:11.920 [D] [value.go:447]  新增文章页面
+2020/04/07 15:38:11.927 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|     6.9817ms|   match|[44m GET     [0m /markdown   r:/markdown
+2020/04/07 15:38:11.943 [D] [server.go:2774]  |  192.168.0.194|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/shutdown/dist/showdown.min.js
+2020/04/07 15:40:13.737 [D] [value.go:447]  新增文章页面
+2020/04/07 15:40:13.745 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|     7.9782ms|   match|[44m GET     [0m /markdown   r:/markdown
+2020/04/07 15:40:13.772 [D] [server.go:2774]  |  192.168.0.194|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/shutdown/dist/showdown.min.js
+2020/04/07 15:41:41.322 [D] [value.go:447]  新增文章页面
+2020/04/07 15:41:41.327 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|      4.987ms|   match|[44m GET     [0m /markdown   r:/markdown
+2020/04/07 15:41:41.387 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|    31.9135ms|   match|[44m GET     [0m /static/shutdown/dist/showdown.min.js
+2020/04/07 15:41:41.447 [D] [server.go:2774]  |  192.168.0.194|[43m 404 [0m|      997.5µs| nomatch|[44m GET     [0m /static/shutdown/dist/shutdown.min.js.map
+2020/04/07 15:41:49.843 [D] [value.go:447]  新增文章
+2020/04/07 15:41:49.843 [D] [value.go:447]  POST请求
+2020/04/07 15:41:49.843 [D] [value.go:447]  {Type:GO Title:这是一个标题 Detail:### 你好吗}
+2020/04/07 15:41:49.843 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|           0s|   match|[46m POST    [0m /markdown   r:/markdown
+2020/04/07 15:42:00.583 [D] [value.go:447]  新增文章
+2020/04/07 15:42:00.583 [D] [value.go:447]  POST请求
+2020/04/07 15:42:00.583 [D] [value.go:447]  {Type:GO Title:这是一个标题 Detail:### 你好吗
+我是你爸爸}
+2020/04/07 15:42:00.583 [D] [server.go:2774]  |  192.168.0.194|[42m 200 [0m|      997.4µs|   match|[46m POST    [0m /markdown   r:/markdown

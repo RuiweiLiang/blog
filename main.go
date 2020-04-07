@@ -1,9 +1,9 @@
 package main
 
 import (
-	"bolg/models"
-	_ "bolg/models"
-	_ "bolg/routers"
+	"blog/models"
+	_ "blog/models"
+	_ "blog/routers"
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/logs"
 	"github.com/astaxie/beego/orm"
@@ -18,8 +18,8 @@ func init() {
 
 func main() {
 	// 日志配置
-	logs.SetLogger(logs.AdapterFile,`{"filename":"logs/test.log","level":7,"maxlines":0,"maxsize":0,"daily":true,"maxdays":10,"color":true}`)
-	logs.EnableFuncCallDepth(true)  // 日志输出行数
+	logs.SetLogger(logs.AdapterFile, `{"filename":"logs/test.log","level":7,"maxlines":0,"maxsize":0,"daily":true,"maxdays":10,"color":true}`)
+	logs.EnableFuncCallDepth(true) // 日志输出行数
 
 	// 开启 ORM 调试模式
 	orm.Debug = true
@@ -27,4 +27,3 @@ func main() {
 	orm.RunSyncdb("default", false, true)
 	beego.Run()
 }
-
