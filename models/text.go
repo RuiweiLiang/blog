@@ -19,3 +19,21 @@ func GetTextById(TextId int) Text {
 	_ = o.Raw("select * from text where id=?", TextId).QueryRow(&Text)
 	return Text
 }
+
+func GetTextByStatus() ([]orm.Params, []orm.Params) {
+	var mapsGo []orm.Params
+	var mapsPython []orm.Params
+	o := orm.NewOrm()
+	_, _ = o.Raw("select title from text where status=0 and type='GO'").Values(&mapsGo)
+	_, _ = o.Raw("select title from text where status=0 and type='Python'").Values(&mapsPython)
+	return mapsGo, mapsPython
+}
+
+func GetTextByPage(Page int, PerPage int, TextType string) []orm.Params {
+	var MapText []orm.Params
+	o := orm.NewOrm()
+	Start := (Page - 1) * PerPage
+	End := Page * PerPage
+	_, _ = o.Raw("select * from text where type=? and status=0 limit ?,?", TextType, Start, End).Values(&MapText)
+	return MapText
+}

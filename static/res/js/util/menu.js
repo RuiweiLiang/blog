@@ -100,22 +100,22 @@ layui.define(['mm','jquery'],function(exports){
 
 layui.use('layer', function(){
      var $ = layui.jquery, layer = layui.layer;
-      $(document).on('click','.test1',function(){
-            $.ajax({
-                url:"/sms_code/login/",
-                data:JSON.stringify({'id':"111"}),
-                type:"POST",
-                contentType: "application/json; charset=utf-8",
-                dataType:"json",
-                success:function(data){
-                  console.log(data);
-                    layer.msg(data.msg);
-                    // location.reload(); //删除成功后再刷新
-                },
-                error:function(data){
-                    console.log(data)
-                }
-            });
+      $(document).on('click','#layui-laypage-2',function(){
+            // $.ajax({
+            //     url:"/sms_code/login/",
+            //     data:JSON.stringify({'id':"111"}),
+            //     type:"POST",
+            //     contentType: "application/json; charset=utf-8",
+            //     dataType:"json",
+            //     success:function(data){
+            //       console.log(data);
+            //         layer.msg(data.msg);
+            //         // location.reload(); //删除成功后再刷新
+            //     },
+            //     error:function(data){
+            //         console.log(data)
+            //     }
+            // });
 
-     });
+          });
  });

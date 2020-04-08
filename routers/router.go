@@ -7,6 +7,6 @@ import (
 
 func init() {
 	beego.Router("/", &controllers.MainController{}, "get:GetFunc;post:PostFunc")
-	beego.Router("/detail", &controllers.DetailController{})
+	beego.Router("/detail", &controllers.DetailController{}, "get:DetailGetFunc;post:DetailPostFunc")
 	beego.Router("/markdown", &controllers.MarkDownController{}, "get:MarkDownGetFunc;post:MarkDownPostFunc")
 }

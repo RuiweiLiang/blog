@@ -49,23 +49,23 @@
         <h4>well-balanced heart</h4>
       </div>
       <div class="amount">
-        <p><span class="text">访问量</span><span class="access">1000</span></p>
-        <p><span class="text">日志</span><span class="daily-record">1000</span></p>
+        <p><span class="text">访问量</span><span class="access">{{.Views}}</span></p>
+        <p><span class="text">日志</span><span class="daily-record">{{.Total}}</span></p>
       </div>
     </div>
   </div>
 
   <div class="content">
-    <div class="test1">1111</div>
     <div class="cont w1000">
       <div class="title">
         <span class="layui-breadcrumb" lay-separator="|">
-          <a href="javascript:;" class="active">GO</a>
-          <a href="javascript:;">Python</a>
+          <a href="javascript:;" class="active" onclick="select_text_type(this)">GO</a>
+          <a href="javascript:;" onclick="select_text_type(this)">Python</a>
 <!--          <a href="javascript:;">旅游杂记</a>-->
         </span>
       </div>
       <div class="list-item">
+
         <div class="item">
           <div class="layui-fluid">
             <div class="layui-row">
@@ -83,6 +83,7 @@
             </div>
            </div>
         </div>
+
 <!--        <div class="item">-->
 <!--          <div class="layui-fluid">-->
 <!--            <div class="layui-row">-->
@@ -174,28 +175,111 @@
   </div>
   <script type="text/javascript" src="../static/res/layui/layui.js"></script>
   <script type="text/javascript">
+      function get_text(page, per_page, text_type){
+            $.ajax({
+                url:"/detail",
+                data:JSON.stringify({page:page,perpage:per_page,type:text_type}),
+                type:"POST",
+                contentType: "application/json; charset=utf-8",
+                dataType:"json",
+                success:function(data){
+                  console.log(data);
+                  $(".list-item").html("")
+                  for (var i in data["Msg"]){
+
+                    var img_str = ""
+                    if (data["Msg"][i]["type"] == "GO"){
+                        img_str = '<div class="img"><img src="../static/res/img/goland.jpg" alt=""></div>'
+                    }else{
+                        img_str = '<div class="img"><img src="../static/res/img/python.jpg" alt=""></div>'
+                    }
+                    $(".list-item").append(
+                        '<div class="item">'
+                           + '<div class="layui-fluid">'
+                             + '<div class="layui-row">'
+                               + '<div class="layui-col-xs12 layui-col-sm4 layui-col-md5">'
+                                 + img_str
+                               + '</div>'
+                               + '<div class="layui-col-xs12 layui-col-sm8 layui-col-md7">'
+                                 + '<div class="item-cont">'
+                                   + '<h3>'+ data["Msg"][i]["title"] +'</h3>'
+                                   + '<h5>'+ data["Msg"][i]["type"] +'</h5>'
+                                   + '过来看看?'
+                                   <!--+ '<a href="details.html" class="go-icon"></a>'-->
+                                   + '<a href="detail?id='+ data["Msg"][i]["id"] +'" class="go-icon"></a>'
+                                 + '</div>'
+                             + '</div>'
+                             + '</div>'
+                            + '</div>'
+                         + '</div>'
+                    )
+                  }
+                },
+                error:function(data){
+                    console.log(data)
+                }
+            });
+
+            }
+      function select_text_type(th){
+        $(th).siblings().removeClass("active")
+        $(th).addClass("active")
+            layui.config({
+                  base: '../static/res/js/util/'
+                }).use(['element','laypage','jquery','menu'],function(){
+                  element = layui.element,laypage = layui.laypage,$ = layui.$,menu = layui.menu;
+
+                  var text_type = $(".layui-breadcrumb").find(".active").text()
+                  if (text_type == "GO"){
+                      laypage.render({
+                              elem: 'demo',
+                             limit: 10
+                              ,count: {{.TotalGo}}, //数据总数，从服务端得到
+                              jump: function(obj){
+                              get_text(obj.curr, obj.limit, text_type)
+                             }
+                            });
+                  }else{
+                     laypage.render({
+                                   elem: 'demo',
+                                   limit: 10
+                                   ,count: {{.TotalPython}}, //数据总数，从服务端得到
+                                   jump: function(obj){
+                                    get_text(obj.curr, obj.limit, text_type)
+                                   }
+                     });
+                  }
+
+                  menu.init();
+
+                })
+      }
     layui.config({
       base: '../static/res/js/util/'
     }).use(['element','laypage','jquery','menu'],function(){
       element = layui.element,laypage = layui.laypage,$ = layui.$,menu = layui.menu;
-      $.ajax({
-          url:"/",
-          data:JSON.stringify({'Type':"GO"}),
-          type:"POST",
-          contentType: "application/json; charset=utf-8",
-          dataType:"json",
-          success:function(data){
-            console.log(data);
-              // location.reload(); //删除成功后再刷新
-          },
-          error:function(data){
-              console.log(data)
-          }
-      });
-      laypage.render({
-        elem: 'demo'
-        ,count: 70 //数据总数，从服务端得到
-      });
+
+      var text_type = $(".layui-breadcrumb").find(".active").text()
+      if (text_type == "GO"){
+          laypage.render({
+                  elem: 'demo',
+                   limit: 10
+                    ,count: {{.TotalGo}}, //数据总数，从服务端得到
+                    jump: function(obj){
+                    get_text(obj.curr, obj.limit, text_type)
+                   }
+                });
+      }else{
+         laypage.render({
+                       elem: 'demo',
+                      limit: 10
+                      ,count: {{.TotalPython}}, //数据总数，从服务端得到
+                      jump: function(obj){
+                       get_text(obj.curr, obj.limit, text_type)
+                      }
+                     });
+      }
+
       menu.init();
 
     })

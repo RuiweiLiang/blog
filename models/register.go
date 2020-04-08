@@ -20,9 +20,15 @@ type Text struct {
 	Type   string // "GO" "Python"
 }
 
+type Public struct {
+	Id       int64
+	Views    int64  // 访问量
+	Datetime string // 日期
+}
+
 func RegisterDB() {
 	//注册 model
-	orm.RegisterModel(new(User), new(Text))
+	orm.RegisterModel(new(User), new(Text), new(Public))
 	//注册驱动
 	orm.RegisterDriver("mysql", orm.DRMySQL)
 	//注册默认数据库
