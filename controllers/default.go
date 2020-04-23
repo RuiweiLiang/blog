@@ -78,9 +78,11 @@ func (c *DetailController) DetailGetFunc() {
 	Message := models.GetTextById(int(TextId))
 	c.Data["Title"] = Message.Title
 	c.Data["Type"] = Message.Type
+	Message2 := models.GetTextByType(Message.Type)
 	c.Data["Detail"] = Message.Detail
 	c.Data["Id"] = Message.Id
 	c.Data["Time"] = Message.Time.Format("2006-01-02 15:04")
+	c.Data["Sort"] = Message2
 	c.TplName = "details.tpl"
 }
 

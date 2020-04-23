@@ -29,6 +29,13 @@ func GetTextByStatus() ([]orm.Params, []orm.Params) {
 	return mapsGo, mapsPython
 }
 
+func GetTextByType(Status string) []orm.Params {
+	var mapsType []orm.Params
+	o := orm.NewOrm()
+	_, _ = o.Raw("select id from text where status=0 and type=?", Status).Values(&mapsType)
+	return mapsType
+}
+
 func GetTextByPage(Page int, PerPage int, TextType string) []orm.Params {
 	var MapText []orm.Params
 	o := orm.NewOrm()
